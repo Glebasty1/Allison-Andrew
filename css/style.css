@@ -1,0 +1,418 @@
+body{
+	margin: 0;
+}
+
+.header{
+	background: url(../img/bg.jpg) no-repeat;
+	height: 1080px;
+	width:1920px;
+}
+
+.header li{
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+	list-style: none;
+	display: inline;
+	padding-left: 7px;
+	font-weight: 700;
+}
+
+.header a {
+	text-decoration:none;
+}
+
+#menu{
+	margin-left: 0%;
+	margin-top: 30px;
+	position: fixed;
+	z-index: 10;
+	letter-spacing: 2px;
+}
+
+.title{
+	font-family: "MrSheffield", "Sans Serif", "Times New Roman";
+	font-size: 108px;
+	font-weight: 500
+	color:#F93;
+	text-align: center;
+	margin-top: 40%;
+}
+
+.title2{
+	font-family: "MrSheffield", "Sans Serif", "Times New Roman";
+	font-size: 60px;
+	font-weight: 500
+	color:#F93;
+	text-align: center;
+	margin-top: 10%;
+}
+
+.main1 p {
+	font-family: "FuturaBook";
+    font-size: 16px;
+    color: #A9A9A9;
+    text-align: center;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn1:hover{background: red;}
+.btn2:hover{background: green;}
+.btn3:hover{background: green;}
+.btn4:hover{background: red;}
+.btn5:hover{background: red;}
+.btn1:active{background: black;}
+.btn2:active{background: black;}
+.btn3:active{background: black;}
+.btn4:active{background: black;}
+.btn5:active{background: black;}
+
+.mt{
+	margin-top: 200px;
+}
+
+.image{
+	width: 1920px;
+}
+
+.main2 p {
+	font-family: "FuturaBook";
+    font-size: 16px;
+    color: #A9A9A9;
+    text-align: center;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main3 p {
+	font-family: "FuturaBook";
+    font-size: 16px;
+    color: #A9A9A9;
+    text-align: center;
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+	background-color: #282828;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	height: 60px;
+	padding-top: 3px;
+}
+
+.scrollup{
+	background-color: black;
+	width:40px;
+	height:40px;
+	opacity:0.7;
+	position:fixed;
+	bottom:50px;
+	right:100px;
+	display:none;
+	text-indent:-9999px;
+	background: url('../img/icon_top.png') no-repeat;
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+.btn1{
+	background: #FF9B83;
+	color: white;
+	width: 340px;
+	position: relative;
+	left: 20%;
+	font-size: 18px;
+	border: 0;
+	margin-top: 30px;
+	height: 60px;
+	transition: all 0.5s ease;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn2{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	margin-left: 20%;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn3{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn4{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all .5s ease;
+	box-shadow: 2px 2px 10px black;
+	margin-left: 20%;
+}
+
+.btn5{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 1s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.btn1{
+	background: #FF9B83;
+	color: white;
+	width: 340px;
+	position: relative;
+	left: 30%;
+	font-size: 18px;
+	border: 0;
+	margin-top: 30px;
+	height: 60px;
+	transition: all 0.5s ease;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn2{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	margin-left: 30%;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn3{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn4{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all .5s ease;
+	box-shadow: 2px 2px 10px black;
+	margin-left: 30%;
+}
+
+.btn5{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 1s ease;
+	box-shadow: 2px 2px 10px black;
+}
+	
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+.btn1{
+	background: #FF9B83;
+	color: white;
+	width: 340px;
+	position: relative;
+	left: 33%;
+	font-size: 18px;
+	border: 0;
+	margin-top: 30px;
+	height: 60px;
+	transition: all 0.5s ease;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn2{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	margin-left: 33%;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn3{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn4{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all .5s ease;
+	box-shadow: 2px 2px 10px black;
+	margin-left: 33%;
+}
+
+.btn5{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 1s ease;
+	box-shadow: 2px 2px 10px black;
+}
+	
+}
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+	.btn1{
+	background: #FF9B83;
+	color: white;
+	width: 340px;
+	position: relative;
+	left: 41%;
+	font-size: 18px;
+	border: 0;
+	margin-top: 30px;
+	height: 60px;
+	transition: all 0.5s ease;
+	line-height: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn2{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	margin-left: 41%;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn3{
+	background-color: #00CBAC;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 0.5s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+.btn4{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all .5s ease;
+	box-shadow: 2px 2px 10px black;
+	margin-left: 41%;
+}
+
+.btn5{
+	background-color: #FF9B83;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	height: 60px;
+	width: 170px;
+	font-weight: 500;
+	border: 0;
+	transition: all 1s ease;
+	box-shadow: 2px 2px 10px black;
+}
+
+	
+}
